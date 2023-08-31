@@ -1,0 +1,27 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    align-items: center;
+}
+.user_name {
+    color: var(--white);
+    font-size: 16px;
+}
+.profile_image {
+    border-radius: 50%;
+}
+.logout_btn {
+    background-color: var(--pinkBtn);
+    color: var(--white);
+    font-size: 16px;
+    border-radius: 25px;
+    height: 35px;
+    width: 200px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 30px;
+}
+.disclaimer {
+    width: 80%;
+    text-align: center;
+}

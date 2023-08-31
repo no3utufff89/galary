@@ -1,0 +1,18 @@
+:root {
+    --black: #1E1E1E;
+    --orange: #F95D05;
+    --blue: #285784;
+    --green: #5bb12c;
+    --gray: #C5C5C5;
+    --white: #fff;
+    --sidebarDark: #272631;
+    --pinkBtn: #EA5A5A;
+    --grayF5: hsl(0, 0%, 96%);
+    --greyED: hsl(0, 0%, 93%);
+    --greyE6: hsl(0, 0%, 90%);
+    --greyD9: hsl(0, 0%, 85%);
+    --greyBF: hsl(0, 0%, 75%);
+    --grey99: hsl(0, 0%, 60%);
+    --grey66: hsl(0, 0%, 40%);
+    --grey33: hsl(0, 0%, 20%);
+}

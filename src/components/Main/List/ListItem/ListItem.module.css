@@ -1,0 +1,31 @@
+.listItem {
+    position: relative;
+}
+.like_block {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    mix-blend-mode: difference;
+}
+.image {
+    display: block;
+}
+.aboutBlock {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+}
+.authorName {
+    color: var(--sidebarDark);
+    mix-blend-mode: difference;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+}
+.authorName:hover {
+    text-decoration: underline;
+}
