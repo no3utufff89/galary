@@ -20,7 +20,7 @@ export const fetchPhotos = createAsyncThunk(
     }
 
     return axios(`${API_URL}/photos?client_id=${ACCESS_KEY}&
-  ${page ? `page=${page}` : ''}&per_page=30`, { headers })
+${page ? `page=${page}` : ''}&per_page=30`, { headers })
       .then(data => {
         let newPosts = data.data;
         if (page > 1) {

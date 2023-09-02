@@ -1,59 +1,44 @@
 @font-face {
-    font-family: "Taviraj";
-    font-style: normal;
-    font-weight: 300;
-    src: local(""),
-    url("../fonts/Taviraj-Light.woff2")
-    format("woff2"),
-        /* Chrome 26+, Opera 23+, Firefox 39+ */
-    url("../fonts/Taviraj-Light.woff")
-    format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  font-family: "Taviraj";
+  font-style: normal;
+  font-weight: 300;
+  src: local(""),
+  url("../fonts/Taviraj-Light.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */ url("../fonts/Taviraj-Light.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 @font-face {
-    font-family: "Taviraj";
-    font-style: normal;
-    font-weight: 400;
-    src: local(""),
-    url("../fonts/Taviraj-Regular.woff2")
-    format("woff2"),
-        /* Chrome 26+, Opera 23+, Firefox 39+ */
-    url("../fonts/Taviraj-Regular.woff")
-    format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  font-family: "Taviraj";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+  url("../fonts/Taviraj-Regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */ url("../fonts/Taviraj-Regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 @font-face {
-    font-family: "Taviraj";
-    font-style: normal;
-    font-weight: 600;
-    src: local(""),
-    url("../fonts/Taviraj-SemiBold.woff2")
-    format("woff2"),
-        /* Chrome 26+, Opera 23+, Firefox 39+ */
-    url("../fonts/Taviraj-SemiBold.woff")
-    format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  font-family: "Taviraj";
+  font-style: normal;
+  font-weight: 600;
+  src: local(""),
+  url("../fonts/Taviraj-SemiBold.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */ url("../fonts/Taviraj-SemiBold.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 @font-face {
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 400;
-    src: local(""),
-    url("../fonts/OpenSans-Regular.woff2")
-    format("woff2"),
-        /* Chrome 26+, Opera 23+, Firefox 39+ */
-    url("../fonts/OpenSans-Regular.woff")
-    format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+  url("../fonts/OpenSans-Regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */ url("../fonts/OpenSans-Regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 @font-face {
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 700;
-    src: local(""),
-    url("../fonts/OpenSans-Bold.woff2")
-    format("woff2"),
-        /* Chrome 26+, Opera 23+, Firefox 39+ */
-    url("../fonts/OpenSans-Bold.woff")
-    format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""),
+  url("../fonts/OpenSans-Bold.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */ url("../fonts/OpenSans-Bold.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }

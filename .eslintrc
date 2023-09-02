@@ -4,7 +4,11 @@
     "es6": true,
     "node": true
   },
-  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime"
+  ],
   "parserOptions": {
     "parser": "babel-eslint",
     "ecmaVersion": "latest",
@@ -99,7 +103,7 @@
     "block-spacing": ["error", "never"],
     "brace-style": "error",
     "camelcase": [
-      2,
+      "error",
       {
         "properties": "never"
       }
@@ -136,7 +140,7 @@
     "max-len": [
       "error",
       {
-        "code": 80,
+        "code": 100,
         "tabWidth": 2,
         "ignoreUrls": true,
         "ignorePattern": "goog.(module|require)"
@@ -203,6 +207,6 @@
     "prefer-rest-params": "error",
     "prefer-spread": "error",
     "rest-spread-spacing": "error",
-    "yield-star-spacing": ["error", "after"],
+    "yield-star-spacing": ["error", "after"]
   }
 }

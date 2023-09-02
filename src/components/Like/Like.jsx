@@ -23,14 +23,15 @@ export const Like = (item) => {
       <button
         onClick={() => {
           handleLike();
-        }
-        }
+        }}
         aria-label="Поставить лайк фотографии"
         className={`${style.likeBtn} btn`}>
         {currentPhoto.liked_by_user ?
-          <AiFillHeart size={40} className={style.heartIcon_liked}
+          <AiFillHeart
+            size={40} className={style.heartIcon_liked}
             title="Убрать лайк"/> :
-          <AiFillHeart size={40} className={style.heartIcon}
+          <AiFillHeart
+            size={40} className={style.heartIcon}
             title="Поставить лайк"/>}
       </button>
     </div>

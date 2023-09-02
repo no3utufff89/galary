@@ -23,8 +23,7 @@ export const Modal = () => {
 
   const handleClose = (e) => {
     const target = e.target;
-    if (
-      (target === overlayRef.current) || (e.keyCode === 27)) {
+    if ((target === overlayRef.current) || (e.keyCode === 27)) {
       navigate('/');
     }
   };

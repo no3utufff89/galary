@@ -1,10 +1,10 @@
 import style from './App.module.css';
 import { Route, Routes } from 'react-router';
-import Header from '../Header';
-import Main from '../Main';
+import Header from './components/Header';
+import Main from './components/Main';
 import { useDispatch } from 'react-redux';
-import { setTokenToState } from '../../store/slice/tokenSlice';
-import { getToken } from '../../api/token';
+import { setTokenToState } from './store/slice/tokenSlice';
+import { getToken } from './api/token';
 
 function App() {
   const dispatch = useDispatch();

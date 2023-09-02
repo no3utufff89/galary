@@ -1,6 +1,7 @@
 @import "~normalize.css";
 @import "fonts.css";
 @import "colors.css";
+
 html {
     position: relative;
     box-sizing: border-box;
@@ -15,7 +16,7 @@ html {
 body {
     min-width: 320px;
     min-height: 100vh;
-    font-family: Open Sans,sans-serif;
+    font-family: Open Sans, sans-serif;
     font-size: 16px;
     font-weight: 400;
     background-color: var(--white);
@@ -67,10 +68,12 @@ iframe {
     width: 1px;
     overflow: hidden;
 }
+
 .btn {
     background-color: transparent;
     border: none;
 }
+
 .my-masonry-grid {
     display: -webkit-box; /* Not needed if autoprefixing */
     display: -ms-flexbox; /* Not needed if autoprefixing */
@@ -78,6 +81,7 @@ iframe {
     margin-left: -30px; /* gutter size offset */
     width: auto;
 }
+
 .my-masonry-grid_column {
     padding-left: 30px; /* gutter size */
     background-clip: padding-box;

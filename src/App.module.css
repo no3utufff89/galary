@@ -1,0 +1,8 @@
+.wrapper {
+  padding: 25px;
+  margin: 0 auto;
+  /*display: grid;*/
+  height: 100vh;
+  min-height: 400px;
+}
+
