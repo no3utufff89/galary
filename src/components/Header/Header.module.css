@@ -1,11 +1,11 @@
 .header {
-    background-color: var(--sidebarDark);
-    position: fixed;
-    top: 25px;
-    bottom: 25px;
-    width: 260px;
-    color: var(--white);
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
-    padding-top: 30px;
+  background-color: var(--sidebarDark);
+  position: fixed;
+  top: 25px;
+  bottom: 25px;
+  width: 260px;
+  color: var(--white);
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  padding-top: 30px;
 }

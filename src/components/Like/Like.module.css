@@ -1,30 +1,34 @@
 .heartIcon {
-    color: #f9a1d9;
+  color: #f9a1d9;
 }
+
 .heartIcon:hover {
-    color: #d90c8f;
+  color: #d90c8f;
 }
+
 .heartIcon_liked {
-    color: red;
+  color: red;
 }
+
 .likeBtn {
-    width: 40px;
-    position: relative;
+  width: 40px;
+  position: relative;
 }
+
 .like_block {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 15px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
 }
 
 .total_likes {
-    font-weight: 700;
-    font-size: 18px;
-    color: black;
+  font-weight: 700;
+  font-size: 18px;
+  color: black;
 }
 

@@ -3,46 +3,46 @@
 @import "colors.css";
 
 html {
-    position: relative;
-    box-sizing: border-box;
+  position: relative;
+  box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
-    min-width: 320px;
-    min-height: 100vh;
-    font-family: Open Sans, sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    background-color: var(--white);
-    color: var(--black);
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: Open Sans, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: var(--white);
+  color: var(--black);
 }
 
 img,
 svg {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 button {
-    padding: 0;
-    cursor: pointer;
+  padding: 0;
+  cursor: pointer;
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 h1,
@@ -51,44 +51,44 @@ h3,
 p,
 figure,
 fieldset {
-    margin: 0;
+  margin: 0;
 }
 
 iframe {
-    border: none;
+  border: none;
 }
 
 .visually-hidden {
-    position: absolute;
-    clip: rect(1px 1px 1px 1px);
-    clip: rect(1px, 1px, 1px, 1px);
-    padding: 0;
-    border: 0;
-    height: 1px;
-    width: 1px;
-    overflow: hidden;
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
 }
 
 .btn {
-    background-color: transparent;
-    border: none;
+  background-color: transparent;
+  border: none;
 }
 
 .my-masonry-grid {
-    display: -webkit-box; /* Not needed if autoprefixing */
-    display: -ms-flexbox; /* Not needed if autoprefixing */
-    display: flex;
-    margin-left: -30px; /* gutter size offset */
-    width: auto;
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: flex;
+  margin-left: -30px; /* gutter size offset */
+  width: auto;
 }
 
 .my-masonry-grid_column {
-    padding-left: 30px; /* gutter size */
-    background-clip: padding-box;
+  padding-left: 30px; /* gutter size */
+  background-clip: padding-box;
 }
 
 /* Style your items */
 .my-masonry-grid_column > li { /* change div to reference your elements you put in <Masonry> */
-    background: grey;
-    margin-bottom: 30px;
+  background: grey;
+  margin-bottom: 30px;
 }

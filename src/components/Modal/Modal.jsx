@@ -52,11 +52,11 @@ export const Modal = () => {
             <div className={style.photo_information}>
               <p className={style.views}>
                 {picture.views}
-                <AiOutlineEye color="green" size={20} title='Просмотры'/>
+                <AiOutlineEye color="green" size={20} title="Просмотры"/>
               </p>
               <p className={style.downloads}>
                 {picture.downloads}
-                <LiaDownloadSolid color="green" size={20} title='Загрузки'/>
+                <LiaDownloadSolid color="green" size={20} title="Загрузки"/>
               </p>
             </div>
             {picture.description && <div className={style.description_block}>
